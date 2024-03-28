@@ -1,0 +1,28 @@
+.main-graphic{
+    display: grid;
+    height: 500px;
+    width: 750px;
+    margin: 20px 20%;
+    grid-template-columns: repeat(75, 1fr);
+    grid-template-rows: repeat(50, 1fr)
+}
+
+.control-bar{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.game-tile{
+    border: 0.5px solid rgb(180, 180, 180)
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#speed-slider{
+    direction: rtl;
+}

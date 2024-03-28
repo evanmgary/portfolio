@@ -1,0 +1,38 @@
+html{
+    background-color: #4433ff;
+  }
+  
+  header{
+    font-size: 30px;
+    text-align: center;
+    color: #cccccc;
+  }
+  
+  #editor{
+    display: block;
+    height: 400px;
+    min-width: 500px;
+    max-width: 1000px;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 10px;
+    margin: 15px auto;
+    background-color: #8888ff;
+  }
+  
+  #preview{
+    height: 400px;
+    min-width: 500px;
+    max-width: 1000px;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 10px;
+    margin: 15px auto;
+    background-color: #8888ff;
+  }
