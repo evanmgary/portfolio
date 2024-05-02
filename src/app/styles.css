@@ -1,0 +1,54 @@
+.project-card-sm{
+    height: 400px;
+    width: 400px;
+    border: 5px slategrey groove;
+    padding: 10px;
+}
+
+.project-card-lg{
+    height: 500px;
+    width: 500px;
+    border: 5px slategrey groove;
+    padding: 10px;
+}
+
+.image-container{
+    position: relative;
+    height: 90%;
+    width: 95%;
+    margin: auto;
+}
+
+.sm-image, .lg-image{
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.portfolio-box-large, .portfolio-box-small{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin: 20px 5px;
+    text-align: center;
+}
+
+.name-info{
+    margin-right: 300px;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.tagline{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.git-link, .lin-link{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: 8px 0px;
+}
