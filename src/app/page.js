@@ -3,6 +3,10 @@ import Link from "next/link";
 import { ProjectCardLg, ProjectCardSm } from "./components";
 import "./styles.css"
 
+export const metadata = {
+  title: "Portfolio",
+  description: "Portfolio page for Evan Gary."
+}
 
 export default function Home() {
   return (
