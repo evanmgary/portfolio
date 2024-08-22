@@ -23,11 +23,11 @@ export default function Home() {
       </div>
       <div className="portfolio-box-large">
         <ProjectCardLg link="" location={"/bracket.PNG"} title="Bracket Maker" desc="Tool to create and randomize NCAA tournament brackets using various advanced stats" alt=""></ProjectCardLg>
-        <ProjectCardLg link="https://evanmgary.github.io/temperature-data-charter/" location={"/weather.PNG"} title="Weather App" desc="Easily view and chart weather data from a point and click map" alt=""></ProjectCardLg>      </div>
+        <ProjectCardLg link="https://emg-weathertools.vercel.app/" location={"/weather.PNG"} title="Weather App" desc="App to chart weather forecasts, buoy data, and historical data" alt=""></ProjectCardLg>      </div>
 
       <div className="portfolio-box-large">
-        <ProjectCardLg link="" location={"/buoy.PNG"} title="Buoy Data Grapher" desc="Tool to obtain and chart NDBC buoy data" alt=""></ProjectCardLg>
-        <ProjectCardLg link="" location={"/pokemon.PNG"} title="Stat-Focused Pokedex" desc="Sortable Pokedex with competitive-focused statistics" alt=""></ProjectCardLg>
+        <ProjectCardLg link="https://online-menu-theta.vercel.app/menu" location={"/menu.PNG"} title="Online Menu Practice" desc="Takeout menu clone created to practice UI elements and CRUD operations (currently WIP)" alt=""></ProjectCardLg>
+        <ProjectCardLg link="/pokedex/dextable" location={"/pokemon.PNG"} title="Stat-Focused Pokedex" desc="Sortable Pokedex with competitive-focused statistics" alt=""></ProjectCardLg>
       </div>
       <div className="portfolio-box-large">
         
