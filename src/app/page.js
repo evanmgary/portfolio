@@ -22,7 +22,7 @@ export default function Home() {
         
       </div>
       <div className="portfolio-box-large">
-        <ProjectCardLg link="" location={"/bracket.PNG"} title="Bracket Maker" desc="Tool to create and randomize NCAA tournament brackets using various advanced stats" alt=""></ProjectCardLg>
+        <ProjectCardLg link="https://evanmgary.github.io/bracket_maker" location={"/bracket.PNG"} title="Bracket Maker" desc="Tool to create and randomize NCAA tournament brackets using various advanced stats" alt=""></ProjectCardLg>
         <ProjectCardLg link="https://emg-weathertools.vercel.app/" location={"/weather.PNG"} title="Weather App" desc="App to chart weather forecasts, buoy data, and historical data" alt=""></ProjectCardLg>      </div>
 
       <div className="portfolio-box-large">
