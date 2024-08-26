@@ -134,7 +134,7 @@ export default function DexTable(props){
         return(
         <tr key={"data-"+ id} className="table-row">
             
-            <td className="table-data img-col"><Link href={`/pokedex/pokemon/${id}/${generationNum}`}><Image src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`} width="50" height="50" alt={allPokes[id].name}></Image></Link></td>
+            <td className="table-data img-col"><Link href={`/pokedex/pokemon/${id}/${generationNum}`}><img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`} width="50" height="50" alt={allPokes[id].name}></img></Link></td>
             <td className="table-data id-col"><Link href={`/pokedex/pokemon/${id}/${generationNum}`}>{allPokes[id].species}</Link></td>
             <td className="table-data name-col"><Link href={`/pokedex/pokemon/${id}/${generationNum}`}>{allPokes[id].name}</Link></td>
             <td className="table-data type-col"><span style={{color: typeColors[type1]}}>{type1}</span> <span style={{color: typeColors[type2]}}>{type2}</span></td>
