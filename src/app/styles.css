@@ -32,6 +32,12 @@
     text-align: center;
 }
 
+@media screen and ((orientation: portrait) or (max-width: 850px)) {
+    .portfolio-box-large, .portfolio-box-small{
+        flex-direction: column;
+    }
+}
+
 .name-info{
     margin-right: 300px;
 }
